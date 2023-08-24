@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Java Script</title>
+    <script>
+        function idade(minhaidade) {
+                minhaidade = window.prompt("Qual a sua idade?");
+            if (minhaidade >= 18) {
+                document.write("<br>Você já é maior de idade, entre no site")
+            } else {
+                document.write("<br>Você não atingiu a maior idade, não poderá acessar o site!")
+            }
+        }
+
+    </script>
+</head>
+
+<body> 
+<!-- <button onclick="alert('Seja bem vindo!')">Clique aqui</button> -->
+
+    <br><br>
+
+    <a href="#" onmouseover="idade()">Passe o mouse para definir a sua idade.</a>
+
+</body>
+</html>
